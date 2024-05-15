@@ -1,5 +1,7 @@
 
 @use 'navbar';
+@use 'about';
+
 @import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
 .hero{
     background-image: url('../img/banner.png');
@@ -7,4 +9,11 @@
     height: 100vh;
     background-size: cover;
     background-position: top left;
+}
+h1,h2,h3 {
+    font-family: "Poetsen One", sans-serif;
+  }
+
+.item-desc{
+    border-left: 3px solid #74C0FC;
 }
