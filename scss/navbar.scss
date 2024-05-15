@@ -1,0 +1,20 @@
+
+
+.header{
+    background: #e9e8e6;
+    box-shadow: 0px 0px 25px 0 rgba(0, 0, 0, 0.08);
+    z-index: 997;
+    padding: 15px 0;
+}
+// logo image font 
+.poetsen-one-regular {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.social-links{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
